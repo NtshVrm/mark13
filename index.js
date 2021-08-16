@@ -22,7 +22,7 @@ function clickHandler(e) {
         }
         var isPalindrome = checkPalindromeForAllDateFormats(date);
         if(isPalindrome) {
-            result.innerText = 'Hooray, it is a Palindrome!';
+            result.innerText = 'Yay, it is a Palindrome!';
         } else {
             var [counter1, nextDate] = getNextClosestPalindromeDate(date);
             var [counter2, previousDate] = getPreviousClosestPalindromeDate(date);
