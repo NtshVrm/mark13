@@ -9,26 +9,39 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 </head>
 <body>
-    <div class="container">
-        <div class="header">
-            <h1>Is Your Birthday A Palindrome?</h1>
-        </div>
-        <img src="images.svg" alt="birthdate">
-        <label for="birthdate">Enter Birthdate: </label>
+    <nav class="navigation container">
+        <div class="nav-brand">Is Your Birthdate a Palindrome?</div>
+    </nav>
+
+        <div class="img"><img  src="images.svg" alt="birthdate"></div>
+
+        <div class="content">
+        <label for="birthdate">ENTER BIRTHDATE: </label>
         <input type="date" name="birthdate" id="input-birthdate">
         <button id="check-button">Check</button>
-        <!-- <img src="number.gif" alt="" id="gif"> -->
+    
+        <div class="button-align"><button class="buttonload" id="gif">
+        <i class="fa fa-spinner fa-spin"></i>Loading
+        </button></div>
 
-        <!-- Add icon library -->
+        </div>
+        
 
-
-<!-- Add font awesome icons to buttons (note that the fa-spin class rotates the icon) -->
-<button class="buttonload" id="gif">
-  <i class="fa fa-spinner fa-spin"></i>Loading
-</button>
-
-        <p id="result"></p>
+        <div id="result"></div>
     </div>
     <script src="index.js"></script>
+
+      <!-- FOOTER -->
+
+  <footer class="footer">
+    <div class="footer-header">Find me on:</div>
+    <ul class="socials list-non-bullet ">
+        <li class="list-item-inline"><a class="link" href="https://www.linkedin.com/in/kc-nitish-varma/" target="_blank" rel="noopener noreferrer"><img src="images/linkedin.svg" alt="Github" height="50" width="50"></a> </li>
+        <li class="list-item-inline"><a class="link" href="https://github.com/NtshVrm" target="_blank" rel="noopener noreferrer"><img src="images/github.svg" alt="Github" height="50" width="50"></a></li>
+        <li class="list-item-inline"><a class="link" href="https://twitter.com/ntsh_vrm" target="_blank" rel="noopener noreferrer"><img src="images/twitter.svg" alt="Github" height="50" width="50"></a></li>
+        <li class="list-item-inline"><a class="link" href="mailto: nitishvarma2k@gmail.com" target="_blank" rel="noopener noreferrer"><img src="images/mail.svg" alt="Github" height="50" width="50"></a></li>
+
+    </ul>
+</footer>  
 </body>
 </html>
