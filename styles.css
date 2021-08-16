@@ -1,0 +1,130 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Mono:wght@300;500&display=swap');
+
+* {
+    box-sizing: border-box;
+}
+
+:root {
+    --primary-color: #6C63FF;
+    --text-color:black ;
+    --button-color: #EF4444;
+    --width-break:600px
+}
+
+body{
+    font-family: 'Roboto Mono', monospace;
+    background-color: white;
+    color: white;
+}
+
+
+.container{
+    padding-left: 1rem;
+    padding-right: 1rem;
+
+}
+
+.navigation{
+    background-color: var(--primary-color);
+    color: white;
+    padding:1rem;
+    border-radius: 1rem;
+    margin:auto;
+}
+
+.navigation .nav-brand{
+    font-weight: bold;
+    font-size: 2rem;
+    text-align: center;
+    color: var(--text-color);
+}
+
+.content{
+    text-align: center;
+}
+
+
+button{
+    margin: 0.5rem;
+    padding: 1rem;
+    background-color: var(--button-color) ;
+    border-radius: 1rem;
+    padding: 12px 16px;
+    font-size: large;
+
+}
+
+.center{
+    text-align: center;
+}
+
+#button-text{
+    font-family: 'Roboto Mono', monospace;
+    font-size: larger;
+    /* color: var(--text-color); */
+    color: black;
+}
+
+
+#gif {
+    display: none;
+    margin-bottom: 0;
+}
+
+img {
+    display:block;
+    margin-left: auto;
+    margin-right: auto;
+    width:25%;
+    margin-bottom: 2rem;
+}
+
+
+input {
+    width: 250px;
+    height: 50px;
+    align-self: center;
+}
+
+label {
+    color:black;
+    align-self: center;
+    padding:1rem;
+    font-size: large;
+}
+
+#result {
+    margin:auto;
+    color:#34D399;
+    font-weight: bold;
+    text-align: center;
+    padding: 1rem; 
+    border-radius: 0.5rem;
+}
+
+/* Style buttons */
+.buttonload {
+    margin:auto;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #6C63FF; /* Green background */
+    /* border: none; Remove borders */
+    color: white; /* White text */
+    padding: 12px 16px; 
+    font-size: 16px ;/* Set a font size */
+  
+  }
+
+  
+
+
+
+
+
+ 
+
+
+
+
+
